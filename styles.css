@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.navigation{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.hero a {
+    color: #828282;
+}
+
+:link, :visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: black;
+}
+
+nav+a {
+    margin-left: auto;
+    margin-right: 40px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
