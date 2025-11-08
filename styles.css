@@ -1,39 +1,155 @@
+* {
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
 body {
-    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    margin: 0 auto;
     padding: 0;
-    color: white;
+    max-width: 970px;
+    width: 100vh;
+    color: black;
+    text-align: center;
 }
 
-.navigation{
+h1 {
+    text-align: left;
+    font-size: 48px;
+    margin-top: 12px;
+    margin-bottom: 50px;
+    border-top: 1px solid #828282;
+    ;
+}
+
+h2 {
+    font-size: 34px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+p {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+section {
+    min-width: 970px;
+    min-height: 500px;
+}
+
+/* HEADER */
+.navigation {
     display: flex;
+    justify-content: center;
     gap: 40px;
-    list-style: none;
-    padding: 0;
-    margin: 0;
+    margin: 25px auto;
 }
 
-.hero a {
+.navigation li a {
+    text-decoration: none;
     color: #828282;
 }
 
-:link, :visited {
-    text-decoration: none;
-    color: inherit;
-}
-
-a:hover {
+.navigation li a:hover {
     color: black;
 }
 
-nav+a {
-    margin-left: auto;
-    margin-right: 40px;
+/* ABOUT-ME  */
+
+.about-me {
+    background-color: #F6F6F6;
 }
 
-.hero {
+.about-me h2 {
+    padding-bottom: 50px;
+}
+
+.about-me p {
+    padding-bottom: 30px;
+}
+
+/* SKILLS */
+
+.skills h2 {
+    padding-bottom: 20px;
+}
+
+.skills p {
+    padding-bottom: 50px;
+}
+
+.product-list {
     display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+    justify-content: space-between;
 }
 
+.product li {
+    height: 170px;
+}
 
+.product p {
+    margin-top: 25px;
+}
+
+.addpadding {
+    margin-bottom: 18px;
+}
+
+/* PORTFOLIO */
+
+.portfolio {
+    background-color: #F6F6F6;
+    padding-bottom: 1px;
+}
+
+.portfolio a {
+    color: black;
+}
+
+.portfolio h2 {
+    margin-bottom: 50px;
+}
+
+.portfolio p {
+    margin: 40px auto 70px auto;
+}
+
+/* FOOTER */
+
+.contacts h2 {
+    margin-bottom: 20px;
+}
+
+.contacts p {
+    margin-bottom: 60px;
+}
+
+.send-message {
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    border-radius: 25px;
+    width: 180px;
+    height: 44px;
+    background-color: black;
+    margin-bottom: 30px;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.anotation {
+    font-size: 16px;
+    color: #828282;
+    margin-bottom: 100px;
+    margin-top: 60px;
+}
