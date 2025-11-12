@@ -58,6 +58,7 @@ section {
 
 .navigation li a:hover {
     color: black;
+    font-weight: bold;
 }
 
 /* ABOUT-ME  */
@@ -141,6 +142,13 @@ section {
     margin-bottom: 30px;
 }
 
+.send-message:hover {
+    transform: scale(1.2);
+    background-color: white;
+    color: black;
+    text-transform: uppercase;
+}
+
 .social {
     display: flex;
     justify-content: center;
@@ -152,4 +160,8 @@ section {
     color: #828282;
     margin-bottom: 100px;
     margin-top: 60px;
+}
+
+.social-links a:hover {
+    opacity: 0.5;
 }
